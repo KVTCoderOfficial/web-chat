@@ -1,0 +1,22 @@
+INFO  2022-03-29 20:09:31 [main] ru.standard.webchat.server.Server (Server.java:30) - Сервер запущен на порту: 8189
+INFO  2022-03-29 20:09:31 [main] ru.standard.webchat.server.Server (Server.java:32) - Ожидание клиентов...
+INFO  2022-03-29 20:09:52 [main] ru.standard.webchat.server.Server (Server.java:34) - Новый клиент подключился
+INFO  2022-03-29 20:09:52 [main] ru.standard.webchat.server.Server (Server.java:32) - Ожидание клиентов...
+INFO  2022-03-29 20:10:07 [main] ru.standard.webchat.server.Server (Server.java:34) - Новый клиент подключился
+INFO  2022-03-29 20:10:07 [main] ru.standard.webchat.server.Server (Server.java:32) - Ожидание клиентов...
+ERROR 2022-03-29 20:10:33 [Thread-1] ru.standard.webchat.server.ClientHandler (ClientHandler.java:46) - Throwing
+java.io.EOFException: null
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:344) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:593) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:568) ~[?:?]
+	at ru.standard.webchat.server.ClientHandler.lambda$new$0(ClientHandler.java:38) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+ERROR 2022-03-29 20:10:35 [Thread-0] ru.standard.webchat.server.ClientHandler (ClientHandler.java:46) - Throwing
+java.io.EOFException: null
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:344) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:593) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:568) ~[?:?]
+	at ru.standard.webchat.server.ClientHandler.lambda$new$0(ClientHandler.java:38) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+INFO  2022-03-29 20:30:25 [main] ru.standard.webchat.server.Server (Server.java:30) - Сервер запущен на порту: 8189
+INFO  2022-03-29 20:30:25 [main] ru.standard.webchat.server.Server (Server.java:32) - Ожидание клиентов...
